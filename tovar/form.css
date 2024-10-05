@@ -1,0 +1,15 @@
+.form {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    border: 1px solid #ffcfda;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    padding: 4rem;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 70px;
+    position: relative;
+}
