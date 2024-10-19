@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="later.css">
     <link rel="stylesheet" href="description.css">
     <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="click.css">
     <title>Товар</title>
 
 
@@ -19,26 +21,56 @@
     <div class="form">
         <h1 class="titule">Чехол для телефона</h1>
 
-        <img class="image" src="/Users/katyadubova/tovar/case1.png" alt="Розовый чехол">
+        <img class="image" src="https://sun9-7.userapi.com/impg/CDHyDDiu2GF5R_6NQg5A2ahHOpBA3mAc-BQ1ew/hVFPhRQl9zc.jpg?size=640x640&quality=96&sign=069fe41db31d1aec5f829fb391dbad5c&type=album" alt="Розовый чехол">
 
         <div>
-            <img class="thumbnail" src="/Users/katyadubova/tovar/case1.png" alt="Розовый чехол">
-            <img class="thumbnail" src="/Users/katyadubova/tovar/case2.png" alt="Белый чехол">
-            <img class="thumbnail" src="/Users/katyadubova/tovar/case3.png" alt="Голубой чехол">
-            <img class="thumbnail" src="/Users/katyadubova/tovar/case4.png" alt="Три чехла">
+            <img class="thumbnail" src="https://sun9-7.userapi.com/impg/CDHyDDiu2GF5R_6NQg5A2ahHOpBA3mAc-BQ1ew/hVFPhRQl9zc.jpg?size=640x640&quality=96&sign=069fe41db31d1aec5f829fb391dbad5c&type=album" alt="Розовый чехол">
+            <img class="thumbnail" src="https://sun9-51.userapi.com/impg/HIRw62qDqT4dM--4n2RwA5sm-nkhGdLRBFdXcw/McsyUQwlqgY.jpg?size=1000x1000&quality=96&sign=23e1f042c5461f19eebca259c77b57e5&type=album" alt="Белый чехол">
+            <img class="thumbnail" src="https://sun9-50.userapi.com/impg/nnhq8E1H8QC50rZ5B2BJRvulIX_CbyLX_H8V-g/_fB6tGBG5Qc.jpg?size=800x800&quality=96&sign=d543cc7befbf5c2f1b151fc9a8c9fdae&type=album" alt="Голубой чехол">
+            <img class="thumbnail" src="https://sun9-12.userapi.com/impg/AJpVzC2Lo1G0TRgK1LUwrGSdqEi4gkt4OCXW5A/CZlXo-Km_Js.jpg?size=480x480&quality=96&sign=ebebc62352693fa84a59b001e12a16c7&type=album" alt="Три чехла">
         </div>
         
         <div class="buttons">
             <button class="buy" name="button">599 р.</button>
             <button class="later" name="button">Добавить в корзину</button>
+            <button class="click" id ="click">Кликни меня!</button>
         </div>
 
-        <div class="description">
+        <div class="description" id="desc">
             <h3>Описание товара</h3>
             <p>Надежная защита от царапин и ударов</p>
             <p>Стильный дизайн для выражения твоей индивидуальности</p>
             <p>Идеальная посадка для комфортного использования</p>
         </div>
+        <table>
+            <tr class="black">
+                <th>Товар 1</th>
+                <th>Товар 2</th>
+                <th>Товар 3</th>
+            </tr>
+            <tr class="green">
+                <td>В наличии</td>
+                <td>Нет в наличии</td>
+                <td>В наличии</td>
+            </tr>
+            <tr class="purple">
+                <td>+</td>
+                <td>-</td>
+                <td>+</td>
+            </tr>
+            <tr class="green">
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr class="red">
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </table>
+
     </div>
+    <script src="index.js"></script>
 </body>
 </html>

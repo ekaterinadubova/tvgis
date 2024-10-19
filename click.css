@@ -1,0 +1,10 @@
+.click {
+
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    margin-left: 15px;
+    margin-top: 5px;
+    border: 1px solid #e7a8e7df;
+    background: rgba(235, 192, 224, 0.867);
+}
